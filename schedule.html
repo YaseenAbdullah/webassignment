@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS Files/header&footer.css" />
+    <link rel="stylesheet" href="CSS Files/schedule.css" />
+    <link rel="icon" href="./Images/YaseenLogo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header-line"></div>
+    <header>
+      <img src="Images/YaseenLogo.png" />
+      <h1>Yaseen Abdullah</h1>
+    </header>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-item">
+          <a class="navbar-link" href="home.html">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="blog.html">Blog</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="navbar-item dropdown-container">
+          <label class="navbar-link" href="layout.html">Layout Design</label>
+          <img src="./Images/arrow.png" class="dropdown-icon" alt="" />
+          <ul class="dropdown-items-container">
+            <li>
+              <a class="dropdown-links" href="float.html">Float Sidebar</a>
+            </li>
+            <li>
+              <a class="dropdown-links" href="flexbox.html">Flexbox Sidebar</a>
+            </li>
+            <li>
+              <a class="dropdown-links" href="grid.html"
+                >Grid System Web page</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="signup.html">Sign Up</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="signin.html">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1 class="page-heading">Class Schedule</h1>
+      <table>
+        <thead>
+          <tr>
+            <td rowspan="3">The Day</td>
+            <td colspan="6">The Class</td>
+          </tr>
+          <tr>
+            <td colspan="3">The Morning Session</td>
+            <td colspan="3">The Evening Session</td>
+          </tr>
+          <tr>
+            <td>start</td>
+            <td>end</td>
+            <td>topic</td>
+            <td>start</td>
+            <td>end</td>
+            <td>topic</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Sunday</td>
+            <td rowspan="2">9:00 AM</td>
+            <td rowspan="2">12:00 AM</td>
+            <td>Intro to JS</td>
+            <td>1:00 PM</td>
+            <td>2:00 PM</td>
+            <td>React</td>
+          </tr>
+          <tr>
+            <td>Angular</td>
+            <td>3:00 AM</td>
+            <td>4:00 AM</td>
+            <td>node js</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>9:00 AM</td>
+            <td>10:00 AM</td>
+            <td rowspan="2">Introduction to JSON</td>
+            <td>1:00 PM</td>
+            <td>2:30 PM</td>
+            <td>Firebase</td>
+          </tr>
+          <tr>
+            <td>10:30 AM</td>
+            <td>12:00 AM</td>
+            <td rowspan="2">4:00 PM</td>
+            <td rowspan="2">6:00 PM</td>
+            <td rowspan="2">Flutter</td>
+          </tr>
+          <tr>
+            <td>9:00 AM</td>
+            <td>12:00 AM</td>
+            <td>Flutter web</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>9:30 AM</td>
+            <td>12:00 AM</td>
+            <td>Laravel</td>
+            <td>1:00 PM</td>
+            <td>2:00 PM</td>
+            <td>Python</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <div class="footer-line"></div>
+    <footer>
+      <div class="footer-item">
+        <h4 class="footer-item-heading">Sitemap</h4>
+        <p class="footer-item-paragraph">
+          <a href="home.html">Home</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="blog.html">Blog</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="schedule.html">Schedule</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="signup.html">Sign up</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="signin.html">Sign In</a>
+        </p>
+      </div>
+      <div class="footer-item">
+        <h4 class="footer-item-heading">Terms of Quick Links</h4>
+        <p class="footer-item-paragraph">
+          <a href="home.html">Link 1</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="blog.html">Link 2</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="schedule.html">Link 3</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="signup.html">Link 4</a>
+        </p>
+      </div>
+      <div class="footer-item">
+        <h4 class="footer-item-heading">Contact info</h4>
+        <p class="footer-item-paragraph">Istunbul, Kurdistan, Turkey</p>
+        <p class="footer-item-paragraph">Phone: 07504445678</p>
+        <p class="footer-item-paragraph">Email: istanbul@gmail.com</p>
+      </div>
+    </footer>
+  </body>
+</html>

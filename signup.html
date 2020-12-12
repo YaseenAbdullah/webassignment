@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS Files/header&footer.css" />
+    <link rel="stylesheet" href="CSS Files/signup.css" />
+    <link rel="icon" href="./Images/YaseenLogo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header-line"></div>
+    <header>
+      <img src="Images/YaseenLogo.png" />
+      <h1>Yaseen Abdullah</h1>
+    </header>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-item">
+          <a class="navbar-link" href="home.html">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="blog.html">Blog</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="schedule.html">Schedule</a>
+        </li>
+        <li class="navbar-item dropdown-container">
+          <label class="navbar-link" href="layout.html">Layout Design</label>
+          <img src="./Images/arrow.png" class="dropdown-icon" alt="" />
+          <ul class="dropdown-items-container">
+            <li>
+              <a class="dropdown-links" href="float.html">Float Sidebar</a>
+            </li>
+            <li>
+              <a class="dropdown-links" href="flexbox.html">Flexbox Sidebar</a>
+            </li>
+            <li>
+              <a class="dropdown-links" href="grid.html"
+                >Grid System Web page</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="signup.html">Sign Up</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="signin.html">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1 class="page-heading">The Sign Up Form</h1>
+      <form>
+        <label for="">Username</label>
+        <input type="text" placeholder="Username" />
+        <label for="">Full Name</label>
+        <input type="text" placeholder="Full Name" />
+        <label for="">Email</label>
+        <input type="email" placeholder="example@gmail.com" />
+        <label for="">Phone</label>
+        <input type="tel" placeholder="07504445678" />
+        <label for="">Password</label>
+        <input type="password" placeholder="**********" />
+        <label for="">Date of Birth</label>
+        <input type="date" />
+        <label>Profile Color</label>
+        <input type="color" />
+        <fieldset>
+          <legend>Martial Status</legend>
+          <input
+            class="radio-buttons"
+            type="radio"
+            id="single"
+            name="marsial status"
+            value="single"
+          />
+          <label for="married">Married</label><br />
+          <input
+            class="radio-buttons"
+            type="radio"
+            id="private"
+            name="marsial status"
+            value="private"
+          />
+          <label for="single">Single</label><br />
+          <input
+            class="radio-buttons"
+            type="radio"
+            id="married"
+            name="marsial status"
+            value="married"
+          />
+          <label for="private">It's Private</label>
+        </fieldset>
+        <label for="">No. Children</label>
+        <select name="age" id="age">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="+4">more...</option>
+        </select>
+        <label for="">Choose Your Degree</label>
+        <select
+          class="multiple-select-input"
+          multiple
+          name="degree"
+          id="degree"
+        >
+          <option value="High School">High School</option>
+          <option value="Bchelor">Bchelor</option>
+          <option value="Master">Master</option>
+          <option value="Doctor">Doctor</option>
+          <option value="Proffessor">Proffessor</option>
+        </select>
+        <label for="">About Yourself</label>
+        <textarea placeholder="More about Yourself..." name="bio"></textarea>
+        <label for="">Upload Your CV</label>
+        <input class="file-input" type="file" placeholder="CV" />
+        <fieldset>
+          <legend>Gender</legend>
+          <input
+            class="radio-buttons"
+            type="radio"
+            id="male"
+            name="gender"
+            value="male"
+          />
+          <label for="male">Male</label><br />
+          <input
+            class="radio-buttons"
+            type="radio"
+            id="female"
+            name="gender"
+            value="female"
+          />
+          <label for="female">Female</label><br />
+        </fieldset>
+        <fieldset>
+          <legend>Agreement</legend>
+          <input
+            class="radio-buttons"
+            type="checkbox"
+            name="agreement"
+            value="male"
+          />
+          <label for="agreement">I Have Read All the Terms.</label><br />
+          <input
+            class="radio-buttons"
+            type="checkbox"
+            name="agreement"
+            value="female"
+          />
+          <label for="agreement">Yes i agree.</label><br />
+        </fieldset>
+      </form>
+      <div class="control-buttons">
+        <button class="signup-button">Sign Up</button>
+        <button class="reset-button">Reset</button>
+      </div>
+    </main>
+    <div class="footer-line"></div>
+    <footer>
+      <div class="footer-item">
+        <h4 class="footer-item-heading">Sitemap</h4>
+        <p class="footer-item-paragraph">
+          <a href="home.html">Home</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="blog.html">Blog</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="schedule.html">Schedule</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="signup.html">Sign up</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="signin.html">Sign In</a>
+        </p>
+      </div>
+      <div class="footer-item">
+        <h4 class="footer-item-heading">Terms of Quick Links</h4>
+        <p class="footer-item-paragraph">
+          <a href="home.html">Link 1</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="blog.html">Link 2</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="schedule.html">Link 3</a>
+        </p>
+        <p class="footer-item-paragraph">
+          <a href="signup.html">Link 4</a>
+        </p>
+      </div>
+      <div class="footer-item">
+        <h4 class="footer-item-heading">Contact info</h4>
+        <p class="footer-item-paragraph">Istunbul, Kurdistan, Turkey</p>
+        <p class="footer-item-paragraph">Phone: 07504445678</p>
+        <p class="footer-item-paragraph">Email: istanbul@gmail.com</p>
+      </div>
+    </footer>
+  </body>
+</html>

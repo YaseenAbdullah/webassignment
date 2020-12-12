@@ -1,0 +1,64 @@
+.article-content {
+  width: 73%;
+  float: left;
+  margin-bottom: 75px;
+}
+
+.sidebar-section {
+  float: right;
+  width: 24%;
+  background-color: #ea97ad;
+  border-top: 10px solid #045762;
+  margin-top: 20px;
+  padding: 15px 10px;
+}
+
+.page-heading {
+  margin: 20px 0px 30px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.article-content h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.article-content a {
+  text-decoration: underline;
+}
+.article-image {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.author {
+  margin: 7px 0px;
+  font-size: 14px;
+  color: rgb(139, 139, 139);
+}
+.article-content p {
+  margin-top: 10px;
+}
+.sidebar-section ul {
+  list-style-type: none;
+}
+.sidebar-section li {
+  margin: 15px 0px;
+}
+.sidebar-section a {
+  font-weight: 700;
+  color: #355070 !important;
+}
+.sidebar-section a:hover {
+  color: #0d2138 !important;
+}

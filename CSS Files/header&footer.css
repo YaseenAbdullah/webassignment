@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f6f4;
+}
+a {
+  text-decoration: none;
+}
+.header-line {
+  background-color: #ea97ad;
+  height: 15px;
+  width: 100%;
+}
+header {
+  padding: 0% 15%;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+header img {
+  height: 50px;
+}
+header h1 {
+  margin-left: 10px;
+  color: #045762;
+}
+nav {
+  padding: 0px 15%;
+  background-color: #045762;
+  z-index: 100;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 10px;
+}
+.navbar {
+  list-style-type: none;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.navbar-item {
+  display: inline;
+  padding: 10px 0px;
+  border-bottom: 3px solid transparent;
+  text-align: center;
+  cursor: pointer;
+}
+.navbar-link {
+  color: #eeeded;
+  padding: 10px 27px;
+  cursor: pointer;
+}
+.navbar-item:hover {
+  border-bottom: 5px solid #ea97ad;
+}
+.footer-line {
+  background-color: #ea97ad;
+  height: 15px;
+  width: 100%;
+}
+footer {
+  width: 100%;
+  background-color: #045762;
+  color: #e7cdbf;
+  padding: 30px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-item {
+  color: #eeeded;
+}
+.footer-item-heading {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-item-paragraph a {
+  color: #eeeded;
+}
+
+.footer-item-paragraph a:hover {
+  color: black;
+}
+.dropdown-container {
+  position: relative;
+}
+.dropdown-icon {
+  position: absolute;
+  height: 25px;
+  top: 9px;
+  right: 3px;
+  transform: rotate(90deg);
+}
+.dropdown-items-container {
+  list-style-type: none;
+  position: absolute;
+  text-align: left;
+  display: none;
+  top: 44px;
+  left: 0;
+  background-color: #045762;
+  overflow: visible;
+  color: #ea97ad;
+}
+.dropdown-container:hover .dropdown-items-container {
+  display: block;
+  padding: 10px;
+  min-width: 250px;
+  box-shadow: 0px 3px 12px black;
+}
+
+.dropdown-container:hover .dropdown-items-container li {
+  padding: 15px 5px;
+}
+
+.dropdown-items-container li:hover {
+  background-color: #eaac8b;
+  color: #355070;
+}
+
+.dropdown-links {
+  color: #ea97ad ;
+}
+
+.dropdown-items-container li:hover .dropdown-links {
+  color: #355070 !important;
+}
+
+main {
+  margin-bottom: 30px;
+  padding: 0 15%;
+  color: #262626;
+}
