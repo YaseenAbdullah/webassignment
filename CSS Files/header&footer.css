@@ -30,7 +30,7 @@ header h1 {
 }
 nav {
   padding: 0px 15%;
-  background-color: #045762;
+  background-color: rgb(4, 87, 98, 0.93);
   z-index: 100;
   position: sticky;
   top: 0px;
